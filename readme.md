@@ -72,7 +72,7 @@ ToDo
         <AllowedHeader>*</AllowedHeader>
     </CORSRule>
 </CORSConfiguration>
-
+---Ensure AllowedHeader is *
 ```
 ### S3 Bucket Policy
 ```
@@ -90,4 +90,4 @@ ToDo
 }
 ```
 ## Author
-Author:: Sam Martin (<samjackmartin@gmail.com>)
+Author:: Lakshmoji Rao Y(<lakshmojirao999@gmail.com>)
