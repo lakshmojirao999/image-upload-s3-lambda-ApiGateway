@@ -1,6 +1,6 @@
 var aws = require('aws-sdk');
 var s3 = new aws.S3({ apiVersion: '2006-03-01' });
-var urlPrefix = 'https://s3-us-west-1.amazonaws.com/kgv-s3-repo/';
+var urlPrefix = 'https://s3-us-west-1.amazonaws.com/kgv-apig-demo/';
 console.log('Loading event');
 exports.handler = function (event, context) {
   var key = new Date().toISOString().substr(0, 10) + '/' + String(Date.now());
