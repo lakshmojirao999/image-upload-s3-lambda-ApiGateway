@@ -13,7 +13,7 @@ $(document).ready(function () {
         add: function (e, data) {
           
           // Get the signed URL from our Lambda-backed API Gateway
-          $.post('https://sm5ngwua72.execute-api.us-east-1.amazonaws.com/test/getsigneds3uploadurl', JSON.stringify({ contentType: data.files[0].type }), function (result) {
+          $.post('https://xxxxxxx.execute-api.us-east-1.amazonaws.com/test/getsigneds3uploadurl', JSON.stringify({ contentType: data.files[0].type }), function (result) {
 
             // Check there wasn't an error getting the signed URL
             if (!result.errorMessage) {
